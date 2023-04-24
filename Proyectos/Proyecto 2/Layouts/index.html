@@ -1,0 +1,127 @@
+<!DOCTYPE html> 
+<html lang="es-ES" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>BrilliByDaia</title>
+        <style>
+            html {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                min-height: 100%;
+                display: grid;
+                grid-template-columns: 100px auto;
+                grid-template-rows: 45px auto 100px;
+                gap: 10px;
+            }
+            header{
+                border-radius: 40px 40px;
+                display: flex;
+                align-items: center;
+                justify-content: right;
+                text-align: center;
+            }
+            nav,
+            aside,
+            main,
+            footer {
+                border-radius: 25px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+            header {
+                background: #c999af;
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 2;
+
+            }
+            nav {
+                background: #e3b1c8;
+                justify-content: space-around;
+                grid-column-start:2;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 2;
+            }  
+            aside {
+                background-color: #fdcae1;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 2;
+                grid-row-end: 10;
+            }
+            main {
+                background: #ffe5f0;
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 3;
+                grid-row-end: 10;
+            }
+            footer { 
+                background: #e3b1c8;
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 10;
+                grid-row-end: 10;
+            }
+        </style>
+        <!-- <link rel="stylesheet" href="css/style.css" /> -->
+        <!-- <script src="js/jscripy.js"></script> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Tags for google algoritm -->
+        <meta name="description" content="Pagina de vestidos de eventos y ocasiones especiales" />
+        <meta name="application-name" content="Aplicación de venta de vestidos y Accesorios" />
+        <meta name="msapplication-TileImage" content="/img/logobrilli" />
+        <meta name="theme-color" content="#F8DAEF" /><!-- Rose pale colour -->
+        <meta name='keywords' content='BrilliByDaia, Brilli, Vestidos, Vestidos eventos, Vestidos ocasiones especiales, Vestidos niña, Accesorios'>
+        <link rel="manifest" href="carpetamanifest.json" />
+        <link rel="icon" type="image/png" href="/BrilliByDaia/Web/img/LogoBrilli.png" />
+        <link rel="preload" href="/font.woff2" as="font" type="/font.woff2" crossorigin="anonymous" />
+    </head>
+    <body>
+        <header>
+            <h1>Brilli By Daia</h1>
+        </header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="Colecciones2023.html">Colecciones 2023</a>
+            <a href="Accesorios.html">Accesorios</a>
+            <a href="Niños.html">Niños</a>
+            <a href="Brilliblog.html">BrilliBlog</a>
+            <form>
+                <input type="search" name="q" placeholder="Encuentra tu vestido!" />
+                <input type="submit" value="Buscar" />
+            </form>
+        </nav>
+        <aside>
+            Contenido Lateral:<br>
+            -Puede contener el wasap para que baje con el scroll de la pagina<br>
+            -Puede contener la nav-bar<br>
+            -Cualquier idea es bienvenida.<br>
+            
+        </aside>
+        <main>
+            Contenido principal de la pagina<br>
+            -Puede contener el video de presentacion (transicion)<br>
+            -Puede contener una seccion de categorias<br>
+            -Puede contener una seccion de novedades y Colecciones<br>
+            -Puede contener informacion<br>
+            -Puede contener un folmulario de citas y suscripciones<br>
+            -Puede contener ventanas a redes sociales con galerias de imagenes<br>
+            -Cualquier idea es bienvenida y debe ser probada para contrastar diseños<br>
+        </main>
+        
+        
+        <footer>
+            <p>Ultima Modificación <span itemprop="dateModified">2023-04-24</span></p>
+            <small><strong>BrilliByDaia</strong>&copy; 2023</small>
+        </footer>    
+    </body>
+
+</html>
